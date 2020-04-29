@@ -3,6 +3,7 @@ module.exports = {
 	from: {
 		version: '19.04',
 		url: 'https://api.enterprise.apigee.com',
+		portalUrl: 'https://mgmtui.apigee.net',
 		userid: 'admin@google.com',
 		passwd: 'SuperSecret123',
 		org: 'org1',
@@ -11,6 +12,7 @@ module.exports = {
 	to: {
 		version: '19.04',
 		url: 'https://api.enterprise.apigee.com',
+		portalUrl: 'https://mgmtui.apigee.net',
 		userid: 'admin@google.com',
 		passwd: 'SuperSecret123!9',
 		org: 'org2',

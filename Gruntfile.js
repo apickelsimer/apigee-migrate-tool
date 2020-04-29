@@ -41,6 +41,9 @@ module.exports = function(grunt) {
     exportFlowHooks: {
        dest: './data/flowhooks/flow_hook_config'
     },
+    exportPortals: {
+        dest: './data/portals'
+    },
     exportAllSpecs: {
       dest: './data/specs'
     },
@@ -129,6 +132,8 @@ module.exports = function(grunt) {
         in_apps: './input/apps.csv',
         out_apps: './data/apps/'
     }
+
+
 
   });
 
